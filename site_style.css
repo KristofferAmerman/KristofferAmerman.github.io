@@ -26,7 +26,7 @@ header p{
 }
 body{
 	background-color:#fcfcfc;
-	font-color:#242424;
+	color:white;
 }
 #pic1{
 	border-style: solid;
@@ -67,6 +67,7 @@ p{
 	border-size: 20px;
 	margin-top: 10px;
 	background-color:EDEDED;
+	color:#242424;
 }
 .container h2{
 	text-align:center;
