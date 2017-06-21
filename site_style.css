@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Comfortaa|Lobster|Poiret+One|Vibur');
+header{
+	text-align: center;
+}
+header h5{
+	display: inline;
+	margin: 10px;
+}
+header button{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+header h1{
+	font-family: 'Audiowide', cursive;
+}
+header img{
+	max-width: 500px;
+}
+#phrase{
+	margin-bottom: 50px;
+	font-style: italic;
+}
+header p{
+	display: inline;
+	margin: 5px;
+}
+body{
+	background-color:#fcfcfc;
+	font-color:#242424;
+}
+#pic1{
+	border-style: solid;
+	border-color: grey;
+	border-size: 5px;
+	margin-left: 50px;
+	margin-right: 398px;
+	margin-bottom: 10px;	
+}
+#piccap1{
+	text-align: center;
+	margin-right: 399px;
+	margin-left:51px;
+}
+footer{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 10;
+}
+p{
+	text-align: center;
+}
+#menu{
+	border-style:solid;
+	border-color:#333333;
+	border-size:5px;
+	margin-left: 60px;
+	margin-right: 60px;
+	background-color: 91AEE3;
+	background-image: url("blue.jpg");
+}
+#menub{
+
+}
+.container{
+	border-style: solid;
+	border-color: #333333;
+	border-size: 20px;
+	margin-top: 10px;
+	background-color:EDEDED;
+}
+.container h2{
+	text-align:center;
+	margin-top: 50px;
+}
+.container h4{
+	text-align:center;
+}

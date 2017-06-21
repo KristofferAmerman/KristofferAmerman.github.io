@@ -1,0 +1,17 @@
+header{
+	text-align: center;
+}
+header h4{
+	display: inline;
+}
+footer{
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+#menu{
+	border-style:solid;
+	border-color:black;
+	border-size:5px;
+}
