@@ -32,20 +32,28 @@ body{
 }
 #pic1{
 	text-align: center;
-	border-radius: 25px;
+	border-radius: 10px;
     border: 2px solid grey;
     padding: 20px; 
     width: 310px;
     height: 240px;
-	margin-left: 40px;
+	margin-left: 200px;
 }
 #piccap1{
 	text-align: center;
 	border-style: solid;
 	border-color: #EDEDED;
-	margin-right: 399px;
-	margin-left:51px;
+	margin-left:215px;
 	width: 290px;
+}
+#pic2{
+	text-align: center;
+	border-radius: 10px;
+	border: 2px solid grey;
+	padding: 20px;
+	width: 310px;
+	height: 240px;
+	margin-left: 200;
 }
 footer{
 	text-align: center;

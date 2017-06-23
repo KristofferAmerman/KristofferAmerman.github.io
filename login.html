@@ -6,13 +6,23 @@
 			var pswd = document.getElementById("pwd");
 			
 			var user = "admin";
-			var pass = "12345";
+			var pass = "admin";
 			
-			if(username.value === user && pswd.value === pass) {
-				console.log('Welcome! You are logged in.');
-				window.open('index.html','_self',false);
-				
-			}
+			var users={};
+			
+			users["admin"]="admin";
+			users["admin2"]="admin2";
+			users["admin3"]="admin3";
+			
+			if(users[username.value] === pswd.value )
+				window.open('index.html','_self',true);
+			
+			
+//			if(username.value === user && pswd.value === pass) {
+//				console.log('Welcome! You are logged in.');
+//				window.open('index.html','_self',true);	
+//			}
+			console.log(users[username.value]);
 			
 			console.log(username.value);
 			console.log(pswd.value);
@@ -31,7 +41,7 @@
 	
 	<body class="gradient">
 		<form>
-		<div id="username">
+		<div id="name">
 		Username:<input type="text" id="username">
 		</div>
 		<br>
